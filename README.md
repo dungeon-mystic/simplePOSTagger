@@ -1,2 +1,2 @@
 # simplePOSTagger
-A simple part-of-speech tagger I wrote for my computational linguistics course. I used H.P. Lovecraft's fiction as the training set. It's tested on a heldout portion of one of his stories.
+A simple part-of-speech tagger I wrote for my computational linguistics course. It uses a reduced version of the Penn-Treebank POS tagging system. I used H.P. Lovecraft's fiction as the training set. It's tested on a short section of one of his stories. The program is set to a vocabulary of 500 words. Out-of-vocabulary words are replaced with a triple asterisk. The program is run with "python3 pos.py". You must have the nltk library installed to run.
